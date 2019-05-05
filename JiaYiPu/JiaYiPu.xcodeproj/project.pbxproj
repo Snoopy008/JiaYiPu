@@ -351,13 +351,15 @@
 			baseConfigurationReference = 48EF1DA5736D9B2F66BDE93B /* Pods-JiaYiPu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63PUZ4A2B9;
 				INFOPLIST_FILE = JiaYiPu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Snoopy.JiaYiPu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayipu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,13 +370,15 @@
 			baseConfigurationReference = B184B9E3063361CCD491F9A8 /* Pods-JiaYiPu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63PUZ4A2B9;
 				INFOPLIST_FILE = JiaYiPu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Snoopy.JiaYiPu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayipu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
