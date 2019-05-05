@@ -28,12 +28,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.extendedLayoutIncludesOpaqueBars = YES;
-    if (@available(iOS 11.0, *)) {
-        self.webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
-    } else {
-        self.automaticallyAdjustsScrollViewInsets = NO;
-    }
     // Do any additional setup after loading the view.
 }
 

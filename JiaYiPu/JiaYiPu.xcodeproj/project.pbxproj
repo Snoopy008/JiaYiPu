@@ -13,7 +13,6 @@
 		072CFF23227E85B0006FB3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072CFF22227E85B0006FB3AF /* Assets.xcassets */; };
 		072CFF26227E85B0006FB3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072CFF24227E85B0006FB3AF /* LaunchScreen.storyboard */; };
 		072CFF29227E85B0006FB3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072CFF28227E85B0006FB3AF /* main.m */; };
-		2C4B95AA017B821E8344F2E8 /* libPods-JiaYiPu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BB02443227F65917487AF3 /* libPods-JiaYiPu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4B95AA017B821E8344F2E8 /* libPods-JiaYiPu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63PUZ4A2B9;
 				INFOPLIST_FILE = JiaYiPu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63PUZ4A2B9;
 				INFOPLIST_FILE = JiaYiPu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
