@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A8E1136682AE97E145801C35B7140A /* JXBWKWebViewPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A614CD50D96A5AF26B92DF652190B0 /* JXBWKWebViewPool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03F846DA84F23D0C6FDB5B29D0C0275D /* WKWebView+CookiesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FB2788CDD329CC8C69F7E53D7DD2DF /* WKWebView+CookiesManager.m */; };
+		0667BA83A3B54E688591A59492912712 /* WKMessageHandlerDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0D217A0C4CEEB12F0A793B4F76CD3 /* WKMessageHandlerDispatch.m */; };
+		06720BA302535333CB3BF750D9D620AF /* WKMessageHandlerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E330089F75F6560961E8A604BD58460F /* WKMessageHandlerHelper.m */; };
+		0D7B97C07B2F336C028F5E576DB0CF94 /* WKMessageHandlerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C56A1FB039E7DFBC648EC5AE781C76F1 /* WKMessageHandlerHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1159680E12F8F1B2215C1CC2EF8890E7 /* WKWebView+ClearWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D6111D9EF79D7886793EADCD23037 /* WKWebView+ClearWebCache.m */; };
+		145DCD6E00784913A1EA1981CBDC5871 /* WKWebView+SyncUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463F1E83AB17726D7494926ED9E46FE /* WKWebView+SyncUserAgent.m */; };
+		1EFB303658A54DFD61FFA7BEDD44AE43 /* WKWebView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC82634335AFF7026EFD6321BB19B3 /* WKWebView+AOP.m */; };
+		27D6B32581AE1DF6FC573CC7E3667E5E /* JXBWKCustomProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C69A3D0B160D58578D9793B3FF79D2FD /* JXBWKCustomProtocol.m */; };
+		281FC1F7CEBC57ECADA21A1D542A4DD0 /* WKWebView+SyncUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = F8A6ED649DD7FD356883A10EC2D896FE /* WKWebView+SyncUserAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CA50D71BD5C5FCFF499F5AEB536B3F4 /* WKCallNativeMethodMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3647468B8C362BC15CB9DABBDBD8441D /* WKCallNativeMethodMessageHandler.m */; };
+		2FD4BE001C594C1F3A68D2C8D1929A4C /* WKWebViewExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C461A86D0497E074F78254AC61DFE6 /* WKWebViewExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3307CA4DAA3B88C9B244808CE3B330C1 /* JXBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E43E1C17F87DC4E6F37229ADBE93A311 /* JXBWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33C0547BD0E63EE90893ABF6B4C57804 /* JXBWebKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC212F07500782A00CAA53EA19ECB2E /* JXBWebKit-dummy.m */; };
+		33D72C9069E00325BB1FA0C93C64FD25 /* JXBWKWebViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F34037F2A43425656C15BB1D629F626 /* JXBWKWebViewPool.m */; };
+		36F8A6133C47FCCF64E977849DC83C45 /* WKWebView+SupportProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2DE4A8B207D79EB79EC89281D83B5E /* WKWebView+SupportProtocol.m */; };
+		3CDF3238B2777D03F361E131D44D969D /* WKCallNativeMethodMessageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B86259A665453B6E47E3F72DE4B6CE /* WKCallNativeMethodMessageHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		419A65C94C2CE90CA0BD907D46704896 /* JXBWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 536B1F7AC99FFF8F5066912E84A2A3E2 /* JXBWKWebView.m */; };
+		4CDCEF3F4884E1408EEB9439C9F73E34 /* JXBWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAA37CC919910627128E35988107408 /* JXBWKWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51A95BD86CAF1A786284489A84155354 /* WKWebView+SupportProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F648F73C67281A7DA54462FD7B1CE57 /* WKWebView+SupportProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55B82BA7AA30F63AB761A30442DD5ABA /* UIProgressView+WKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9800324E13A7B7D99A7A95012A683B74 /* UIProgressView+WKWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64F5F75166A1BAB26185B73BEDEBCBAB /* NSURLProtocol+WebKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 983C94EB050D87C53B29A21F141E7B50 /* NSURLProtocol+WebKitSupport.m */; };
+		710F26E371E1C30008E0895BF54D7A81 /* WKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9F7B363AD720903323543215C2AD3 /* WKAppManager.m */; };
+		86F39960EFA7488431F84E1162E5D753 /* WKWebView+ExternalNavigationDelegates.m in Sources */ = {isa = PBXBuildFile; fileRef = 73986829BEB2DA1CBD5D369930E34D22 /* WKWebView+ExternalNavigationDelegates.m */; };
+		B380BD1739DDC70C0DF1A7B77904BEC1 /* WKWebView+ClearWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABA5A9C342239CB6CD4AAF2F68E23AE /* WKWebView+ClearWebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5C4A1DBCF9AA5A7B5F9E091F3DDD106 /* WKAppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F65CF6C1E1C13B1093324E21F8AF2A /* WKAppManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C53A18A876E31031FAFA424D48689A3A /* UIProgressView+WKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2715137F6C30064DA1839E92A3A80AD /* UIProgressView+WKWebView.m */; };
+		C5A1E0E810FB472E17FC8EDCD58D1B4C /* WKMessageHandlerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F9DDEF3013739B85A96D080766D7E8 /* WKMessageHandlerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD0C3D542D5FA64F0A1425A80389BEA4 /* WKWebView+CookiesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE36CF9033E08B4A86BAF12846C11CFB /* WKWebView+CookiesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFCE34F21AA833324D2814983BDFD950 /* WKMessageHandlerDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F83AEF6AE4B46759D86D93B3394BCA6 /* WKMessageHandlerDispatch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1D3D982A535F7EB450B9D148E8D2494 /* Pods-JiaYiPu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C2AF362FC41C9E556830E5BE89E80B /* Pods-JiaYiPu-dummy.m */; };
+		D369470B1A02D5F23F59F9E4E38CCB85 /* JXBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933C856AC674873AB343C787ADBD5E1C /* JXBWebViewController.m */; };
+		E15F9A79A6B221C0C54C064C38619F7D /* WKWebView+ExternalNavigationDelegates.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E99B431AAC7C5DB617B128CEABF6841 /* WKWebView+ExternalNavigationDelegates.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E466FE1561B0A68AFED397A40BF28540 /* JXBWKCustomProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D530EAB7785CFB3D8AE866653C2BCB86 /* JXBWKCustomProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1E49D66403818BB110DCDFF421FF58C /* NSURLProtocol+WebKitSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D44D3623952881313752E8D7D37783 /* NSURLProtocol+WebKitSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBC2930B831E501763DDA2BFF421BFF8 /* WKWebView+AOP.h in Headers */ = {isa = PBXBuildFile; fileRef = 149534526B5468619716E3CB418A6820 /* WKWebView+AOP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE5BFD045000424DD7C920DA5B25CFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA3C6D4FCD4EAB9CD734AEA33854D82;
+			remoteInfo = JXBWebKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00105BB2C66CA6C9858AEACBDF3A7F66 /* libJXBWebKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJXBWebKit.a; path = libJXBWebKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E99B431AAC7C5DB617B128CEABF6841 /* WKWebView+ExternalNavigationDelegates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+ExternalNavigationDelegates.h"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+ExternalNavigationDelegates.h"; sourceTree = "<group>"; };
+		0F83AEF6AE4B46759D86D93B3394BCA6 /* WKMessageHandlerDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKMessageHandlerDispatch.h; path = JXBWebKit/Tools/Dispatch/WKMessageHandlerDispatch.h; sourceTree = "<group>"; };
+		149534526B5468619716E3CB418A6820 /* WKWebView+AOP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AOP.h"; path = "JXBWebKit/Tools/CustomUI/WKWebView+AOP.h"; sourceTree = "<group>"; };
+		175D6111D9EF79D7886793EADCD23037 /* WKWebView+ClearWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+ClearWebCache.m"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+ClearWebCache.m"; sourceTree = "<group>"; };
+		18A9F7B363AD720903323543215C2AD3 /* WKAppManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKAppManager.m; path = JXBWebKit/Tools/Helper/WKAppManager.m; sourceTree = "<group>"; };
+		1ABA5A9C342239CB6CD4AAF2F68E23AE /* WKWebView+ClearWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+ClearWebCache.h"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+ClearWebCache.h"; sourceTree = "<group>"; };
+		20C2AF362FC41C9E556830E5BE89E80B /* Pods-JiaYiPu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiaYiPu-dummy.m"; sourceTree = "<group>"; };
+		2F648F73C67281A7DA54462FD7B1CE57 /* WKWebView+SupportProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+SupportProtocol.h"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+SupportProtocol.h"; sourceTree = "<group>"; };
+		3576E69012300C6CC859F6F59B8BD296 /* Pods-JiaYiPu-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiaYiPu-frameworks.sh"; sourceTree = "<group>"; };
+		3647468B8C362BC15CB9DABBDBD8441D /* WKCallNativeMethodMessageHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCallNativeMethodMessageHandler.m; path = JXBWebKit/Tools/MessageHandler/WKCallNativeMethodMessageHandler.m; sourceTree = "<group>"; };
+		37A80BC99E1A260038C7DCBDCFAF6926 /* JXBWebKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXBWebKit-prefix.pch"; sourceTree = "<group>"; };
+		3BAA37CC919910627128E35988107408 /* JXBWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXBWKWebView.h; path = JXBWebKit/Tools/ReusePool/JXBWKWebView.h; sourceTree = "<group>"; };
+		3F6AF8A27F62A1B0B9E4040EB697C280 /* Pods-JiaYiPu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiaYiPu-acknowledgements.plist"; sourceTree = "<group>"; };
+		536B1F7AC99FFF8F5066912E84A2A3E2 /* JXBWKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXBWKWebView.m; path = JXBWebKit/Tools/ReusePool/JXBWKWebView.m; sourceTree = "<group>"; };
+		5CCC82634335AFF7026EFD6321BB19B3 /* WKWebView+AOP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AOP.m"; path = "JXBWebKit/Tools/CustomUI/WKWebView+AOP.m"; sourceTree = "<group>"; };
+		5EC2022ECCCC976EE3E4E64E7092F456 /* Pods-JiaYiPu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiaYiPu.debug.xcconfig"; sourceTree = "<group>"; };
+		61A282E35AA697F851366D4489609BC5 /* JXBWebKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXBWebKit.xcconfig; sourceTree = "<group>"; };
+		67FB2788CDD329CC8C69F7E53D7DD2DF /* WKWebView+CookiesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+CookiesManager.m"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+CookiesManager.m"; sourceTree = "<group>"; };
+		69A614CD50D96A5AF26B92DF652190B0 /* JXBWKWebViewPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXBWKWebViewPool.h; path = JXBWebKit/Tools/ReusePool/JXBWKWebViewPool.h; sourceTree = "<group>"; };
+		6F34037F2A43425656C15BB1D629F626 /* JXBWKWebViewPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXBWKWebViewPool.m; path = JXBWebKit/Tools/ReusePool/JXBWKWebViewPool.m; sourceTree = "<group>"; };
+		73986829BEB2DA1CBD5D369930E34D22 /* WKWebView+ExternalNavigationDelegates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+ExternalNavigationDelegates.m"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+ExternalNavigationDelegates.m"; sourceTree = "<group>"; };
+		7758EC234A4F68E475568C0417124946 /* Pods-JiaYiPu-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiaYiPu-resources.sh"; sourceTree = "<group>"; };
+		8463F1E83AB17726D7494926ED9E46FE /* WKWebView+SyncUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+SyncUserAgent.m"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+SyncUserAgent.m"; sourceTree = "<group>"; };
+		86C461A86D0497E074F78254AC61DFE6 /* WKWebViewExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewExtension.h; path = JXBWebKit/Tools/WebViewExtension/WKWebViewExtension.h; sourceTree = "<group>"; };
+		8DC212F07500782A00CAA53EA19ECB2E /* JXBWebKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXBWebKit-dummy.m"; sourceTree = "<group>"; };
+		933C856AC674873AB343C787ADBD5E1C /* JXBWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXBWebViewController.m; path = JXBWebKit/JXBWebViewController.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9800324E13A7B7D99A7A95012A683B74 /* UIProgressView+WKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+WKWebView.h"; path = "JXBWebKit/Tools/CustomUI/UIProgressView+WKWebView.h"; sourceTree = "<group>"; };
+		983C94EB050D87C53B29A21F141E7B50 /* NSURLProtocol+WebKitSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLProtocol+WebKitSupport.m"; path = "JXBWebKit/Tools/URLProtocol/NSURLProtocol+WebKitSupport.m"; sourceTree = "<group>"; };
+		A39BC834ABE213357E7F58C82260BE74 /* Pods-JiaYiPu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiaYiPu-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA62B2277FCE788FF37DC2EB1B98891D /* JSResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JSResources.bundle; path = JXBWebKit/JSResources.bundle; sourceTree = "<group>"; };
+		B09C21A20332CCB5549B60DD360A9F36 /* libPods-JiaYiPu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JiaYiPu.a"; path = "libPods-JiaYiPu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D44D3623952881313752E8D7D37783 /* NSURLProtocol+WebKitSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLProtocol+WebKitSupport.h"; path = "JXBWebKit/Tools/URLProtocol/NSURLProtocol+WebKitSupport.h"; sourceTree = "<group>"; };
+		B3F65CF6C1E1C13B1093324E21F8AF2A /* WKAppManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKAppManager.h; path = JXBWebKit/Tools/Helper/WKAppManager.h; sourceTree = "<group>"; };
+		B68516B0676657E3DE6B3161AA4218EE /* Pods-JiaYiPu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiaYiPu.release.xcconfig"; sourceTree = "<group>"; };
+		BC2DE4A8B207D79EB79EC89281D83B5E /* WKWebView+SupportProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+SupportProtocol.m"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+SupportProtocol.m"; sourceTree = "<group>"; };
+		BE36CF9033E08B4A86BAF12846C11CFB /* WKWebView+CookiesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+CookiesManager.h"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+CookiesManager.h"; sourceTree = "<group>"; };
+		C56A1FB039E7DFBC648EC5AE781C76F1 /* WKMessageHandlerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKMessageHandlerHelper.h; path = JXBWebKit/Tools/Helper/WKMessageHandlerHelper.h; sourceTree = "<group>"; };
+		C69A3D0B160D58578D9793B3FF79D2FD /* JXBWKCustomProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXBWKCustomProtocol.m; path = JXBWebKit/Tools/URLProtocol/JXBWKCustomProtocol.m; sourceTree = "<group>"; };
+		C7F9DDEF3013739B85A96D080766D7E8 /* WKMessageHandlerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKMessageHandlerProtocol.h; path = JXBWebKit/Tools/MessageHandler/WKMessageHandlerProtocol.h; sourceTree = "<group>"; };
+		D530EAB7785CFB3D8AE866653C2BCB86 /* JXBWKCustomProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXBWKCustomProtocol.h; path = JXBWebKit/Tools/URLProtocol/JXBWKCustomProtocol.h; sourceTree = "<group>"; };
+		E2715137F6C30064DA1839E92A3A80AD /* UIProgressView+WKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+WKWebView.m"; path = "JXBWebKit/Tools/CustomUI/UIProgressView+WKWebView.m"; sourceTree = "<group>"; };
+		E330089F75F6560961E8A604BD58460F /* WKMessageHandlerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKMessageHandlerHelper.m; path = JXBWebKit/Tools/Helper/WKMessageHandlerHelper.m; sourceTree = "<group>"; };
+		E3E0D217A0C4CEEB12F0A793B4F76CD3 /* WKMessageHandlerDispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKMessageHandlerDispatch.m; path = JXBWebKit/Tools/Dispatch/WKMessageHandlerDispatch.m; sourceTree = "<group>"; };
+		E43E1C17F87DC4E6F37229ADBE93A311 /* JXBWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXBWebViewController.h; path = JXBWebKit/JXBWebViewController.h; sourceTree = "<group>"; };
+		F7B86259A665453B6E47E3F72DE4B6CE /* WKCallNativeMethodMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCallNativeMethodMessageHandler.h; path = JXBWebKit/Tools/MessageHandler/WKCallNativeMethodMessageHandler.h; sourceTree = "<group>"; };
+		F8A6ED649DD7FD356883A10EC2D896FE /* WKWebView+SyncUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+SyncUserAgent.h"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+SyncUserAgent.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E9C868A5E099A38434E4E46AC3C5C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF48976BFD98544C4B64DA1E75D7A4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CE0674CCF731A0F350909BE0BDD6F76 /* JXBWebKit */ = {
+			isa = PBXGroup;
+			children = (
+				E43E1C17F87DC4E6F37229ADBE93A311 /* JXBWebViewController.h */,
+				933C856AC674873AB343C787ADBD5E1C /* JXBWebViewController.m */,
+				D530EAB7785CFB3D8AE866653C2BCB86 /* JXBWKCustomProtocol.h */,
+				C69A3D0B160D58578D9793B3FF79D2FD /* JXBWKCustomProtocol.m */,
+				3BAA37CC919910627128E35988107408 /* JXBWKWebView.h */,
+				536B1F7AC99FFF8F5066912E84A2A3E2 /* JXBWKWebView.m */,
+				69A614CD50D96A5AF26B92DF652190B0 /* JXBWKWebViewPool.h */,
+				6F34037F2A43425656C15BB1D629F626 /* JXBWKWebViewPool.m */,
+				B3D44D3623952881313752E8D7D37783 /* NSURLProtocol+WebKitSupport.h */,
+				983C94EB050D87C53B29A21F141E7B50 /* NSURLProtocol+WebKitSupport.m */,
+				9800324E13A7B7D99A7A95012A683B74 /* UIProgressView+WKWebView.h */,
+				E2715137F6C30064DA1839E92A3A80AD /* UIProgressView+WKWebView.m */,
+				B3F65CF6C1E1C13B1093324E21F8AF2A /* WKAppManager.h */,
+				18A9F7B363AD720903323543215C2AD3 /* WKAppManager.m */,
+				F7B86259A665453B6E47E3F72DE4B6CE /* WKCallNativeMethodMessageHandler.h */,
+				3647468B8C362BC15CB9DABBDBD8441D /* WKCallNativeMethodMessageHandler.m */,
+				0F83AEF6AE4B46759D86D93B3394BCA6 /* WKMessageHandlerDispatch.h */,
+				E3E0D217A0C4CEEB12F0A793B4F76CD3 /* WKMessageHandlerDispatch.m */,
+				C56A1FB039E7DFBC648EC5AE781C76F1 /* WKMessageHandlerHelper.h */,
+				E330089F75F6560961E8A604BD58460F /* WKMessageHandlerHelper.m */,
+				C7F9DDEF3013739B85A96D080766D7E8 /* WKMessageHandlerProtocol.h */,
+				149534526B5468619716E3CB418A6820 /* WKWebView+AOP.h */,
+				5CCC82634335AFF7026EFD6321BB19B3 /* WKWebView+AOP.m */,
+				1ABA5A9C342239CB6CD4AAF2F68E23AE /* WKWebView+ClearWebCache.h */,
+				175D6111D9EF79D7886793EADCD23037 /* WKWebView+ClearWebCache.m */,
+				BE36CF9033E08B4A86BAF12846C11CFB /* WKWebView+CookiesManager.h */,
+				67FB2788CDD329CC8C69F7E53D7DD2DF /* WKWebView+CookiesManager.m */,
+				0E99B431AAC7C5DB617B128CEABF6841 /* WKWebView+ExternalNavigationDelegates.h */,
+				73986829BEB2DA1CBD5D369930E34D22 /* WKWebView+ExternalNavigationDelegates.m */,
+				2F648F73C67281A7DA54462FD7B1CE57 /* WKWebView+SupportProtocol.h */,
+				BC2DE4A8B207D79EB79EC89281D83B5E /* WKWebView+SupportProtocol.m */,
+				F8A6ED649DD7FD356883A10EC2D896FE /* WKWebView+SyncUserAgent.h */,
+				8463F1E83AB17726D7494926ED9E46FE /* WKWebView+SyncUserAgent.m */,
+				86C461A86D0497E074F78254AC61DFE6 /* WKWebViewExtension.h */,
+				2F5BC9F6478FCD9481872A02B5D2D1BB /* Resources */,
+				B2A8151A252917B06008417941B4CD41 /* Support Files */,
+			);
+			name = JXBWebKit;
+			path = JXBWebKit;
+			sourceTree = "<group>";
+		};
+		2F5BC9F6478FCD9481872A02B5D2D1BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA62B2277FCE788FF37DC2EB1B98891D /* JSResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		35A218EC4661BAC94394389B85AFE1A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CE0674CCF731A0F350909BE0BDD6F76 /* JXBWebKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		451CBCB79EDA2C8F9BF52CB009FA5436 /* Pods-JiaYiPu */ = {
+			isa = PBXGroup;
+			children = (
+				A39BC834ABE213357E7F58C82260BE74 /* Pods-JiaYiPu-acknowledgements.markdown */,
+				3F6AF8A27F62A1B0B9E4040EB697C280 /* Pods-JiaYiPu-acknowledgements.plist */,
+				20C2AF362FC41C9E556830E5BE89E80B /* Pods-JiaYiPu-dummy.m */,
+				3576E69012300C6CC859F6F59B8BD296 /* Pods-JiaYiPu-frameworks.sh */,
+				7758EC234A4F68E475568C0417124946 /* Pods-JiaYiPu-resources.sh */,
+				5EC2022ECCCC976EE3E4E64E7092F456 /* Pods-JiaYiPu.debug.xcconfig */,
+				B68516B0676657E3DE6B3161AA4218EE /* Pods-JiaYiPu.release.xcconfig */,
+			);
+			name = "Pods-JiaYiPu";
+			path = "Target Support Files/Pods-JiaYiPu";
+			sourceTree = "<group>";
+		};
+		49F3CE6A2035EF8F790722633219BBCE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				451CBCB79EDA2C8F9BF52CB009FA5436 /* Pods-JiaYiPu */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				35A218EC4661BAC94394389B85AFE1A1 /* Pods */,
+				B4AA85A86579CFD76B7E1E180C22FE44 /* Products */,
+				49F3CE6A2035EF8F790722633219BBCE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2A8151A252917B06008417941B4CD41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61A282E35AA697F851366D4489609BC5 /* JXBWebKit.xcconfig */,
+				8DC212F07500782A00CAA53EA19ECB2E /* JXBWebKit-dummy.m */,
+				37A80BC99E1A260038C7DCBDCFAF6926 /* JXBWebKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JXBWebKit";
+			sourceTree = "<group>";
+		};
+		B4AA85A86579CFD76B7E1E180C22FE44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00105BB2C66CA6C9858AEACBDF3A7F66 /* libJXBWebKit.a */,
+				B09C21A20332CCB5549B60DD360A9F36 /* libPods-JiaYiPu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AD6DCABF318A8F7716073C8404872E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3307CA4DAA3B88C9B244808CE3B330C1 /* JXBWebViewController.h in Headers */,
+				E466FE1561B0A68AFED397A40BF28540 /* JXBWKCustomProtocol.h in Headers */,
+				4CDCEF3F4884E1408EEB9439C9F73E34 /* JXBWKWebView.h in Headers */,
+				03A8E1136682AE97E145801C35B7140A /* JXBWKWebViewPool.h in Headers */,
+				F1E49D66403818BB110DCDFF421FF58C /* NSURLProtocol+WebKitSupport.h in Headers */,
+				55B82BA7AA30F63AB761A30442DD5ABA /* UIProgressView+WKWebView.h in Headers */,
+				B5C4A1DBCF9AA5A7B5F9E091F3DDD106 /* WKAppManager.h in Headers */,
+				3CDF3238B2777D03F361E131D44D969D /* WKCallNativeMethodMessageHandler.h in Headers */,
+				CFCE34F21AA833324D2814983BDFD950 /* WKMessageHandlerDispatch.h in Headers */,
+				0D7B97C07B2F336C028F5E576DB0CF94 /* WKMessageHandlerHelper.h in Headers */,
+				C5A1E0E810FB472E17FC8EDCD58D1B4C /* WKMessageHandlerProtocol.h in Headers */,
+				FBC2930B831E501763DDA2BFF421BFF8 /* WKWebView+AOP.h in Headers */,
+				B380BD1739DDC70C0DF1A7B77904BEC1 /* WKWebView+ClearWebCache.h in Headers */,
+				CD0C3D542D5FA64F0A1425A80389BEA4 /* WKWebView+CookiesManager.h in Headers */,
+				E15F9A79A6B221C0C54C064C38619F7D /* WKWebView+ExternalNavigationDelegates.h in Headers */,
+				51A95BD86CAF1A786284489A84155354 /* WKWebView+SupportProtocol.h in Headers */,
+				281FC1F7CEBC57ECADA21A1D542A4DD0 /* WKWebView+SyncUserAgent.h in Headers */,
+				2FD4BE001C594C1F3A68D2C8D1929A4C /* WKWebViewExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AFA3C6D4FCD4EAB9CD734AEA33854D82 /* JXBWebKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25806FB404F73F18247C68357EA10C8F /* Build configuration list for PBXNativeTarget "JXBWebKit" */;
+			buildPhases = (
+				602587283075D70800732A92F35A6F0E /* Sources */,
+				AF48976BFD98544C4B64DA1E75D7A4FC /* Frameworks */,
+				0AD6DCABF318A8F7716073C8404872E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXBWebKit;
+			productName = JXBWebKit;
+			productReference = 00105BB2C66CA6C9858AEACBDF3A7F66 /* libJXBWebKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C128AF01B6E72844C04276C0AD64AE18 /* Pods-JiaYiPu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E693D10C30B209CA86AC02EBE60EDEF1 /* Build configuration list for PBXNativeTarget "Pods-JiaYiPu" */;
+			buildPhases = (
+				CC1ED076725FEA6DBF3B1F762171BEB3 /* Sources */,
+				67E9C868A5E099A38434E4E46AC3C5C5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A390B8D527FC58E4F173884BAB93781E /* PBXTargetDependency */,
+			);
+			name = "Pods-JiaYiPu";
+			productName = "Pods-JiaYiPu";
+			productReference = B09C21A20332CCB5549B60DD360A9F36 /* libPods-JiaYiPu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B4AA85A86579CFD76B7E1E180C22FE44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFA3C6D4FCD4EAB9CD734AEA33854D82 /* JXBWebKit */,
+				C128AF01B6E72844C04276C0AD64AE18 /* Pods-JiaYiPu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		602587283075D70800732A92F35A6F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C0547BD0E63EE90893ABF6B4C57804 /* JXBWebKit-dummy.m in Sources */,
+				D369470B1A02D5F23F59F9E4E38CCB85 /* JXBWebViewController.m in Sources */,
+				27D6B32581AE1DF6FC573CC7E3667E5E /* JXBWKCustomProtocol.m in Sources */,
+				419A65C94C2CE90CA0BD907D46704896 /* JXBWKWebView.m in Sources */,
+				33D72C9069E00325BB1FA0C93C64FD25 /* JXBWKWebViewPool.m in Sources */,
+				64F5F75166A1BAB26185B73BEDEBCBAB /* NSURLProtocol+WebKitSupport.m in Sources */,
+				C53A18A876E31031FAFA424D48689A3A /* UIProgressView+WKWebView.m in Sources */,
+				710F26E371E1C30008E0895BF54D7A81 /* WKAppManager.m in Sources */,
+				2CA50D71BD5C5FCFF499F5AEB536B3F4 /* WKCallNativeMethodMessageHandler.m in Sources */,
+				0667BA83A3B54E688591A59492912712 /* WKMessageHandlerDispatch.m in Sources */,
+				06720BA302535333CB3BF750D9D620AF /* WKMessageHandlerHelper.m in Sources */,
+				1EFB303658A54DFD61FFA7BEDD44AE43 /* WKWebView+AOP.m in Sources */,
+				1159680E12F8F1B2215C1CC2EF8890E7 /* WKWebView+ClearWebCache.m in Sources */,
+				03F846DA84F23D0C6FDB5B29D0C0275D /* WKWebView+CookiesManager.m in Sources */,
+				86F39960EFA7488431F84E1162E5D753 /* WKWebView+ExternalNavigationDelegates.m in Sources */,
+				36F8A6133C47FCCF64E977849DC83C45 /* WKWebView+SupportProtocol.m in Sources */,
+				145DCD6E00784913A1EA1981CBDC5871 /* WKWebView+SyncUserAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1ED076725FEA6DBF3B1F762171BEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D3D982A535F7EB450B9D148E8D2494 /* Pods-JiaYiPu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A390B8D527FC58E4F173884BAB93781E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXBWebKit;
+			target = AFA3C6D4FCD4EAB9CD734AEA33854D82 /* JXBWebKit */;
+			targetProxy = FE5BFD045000424DD7C920DA5B25CFB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B8532C6D43EF25C3CE03558B7AEAF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC2022ECCCC976EE3E4E64E7092F456 /* Pods-JiaYiPu.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FBECB112B8AF6DAAE4077D6F8738AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A282E35AA697F851366D4489609BC5 /* JXBWebKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JXBWebKit/JXBWebKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JXBWebKit;
+				PRODUCT_NAME = JXBWebKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CFA323259398C33B7A7648A7EB5D34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A282E35AA697F851366D4489609BC5 /* JXBWebKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JXBWebKit/JXBWebKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JXBWebKit;
+				PRODUCT_NAME = JXBWebKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42F55FCD126DD9062D5120C9BF8E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68516B0676657E3DE6B3161AA4218EE /* Pods-JiaYiPu.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA39F93BCC98288C75B07575327D1A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FEB52B20EEB50135A85E1727D4046F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25806FB404F73F18247C68357EA10C8F /* Build configuration list for PBXNativeTarget "JXBWebKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBECB112B8AF6DAAE4077D6F8738AD1 /* Debug */,
+				7CFA323259398C33B7A7648A7EB5D34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB52B20EEB50135A85E1727D4046F94 /* Debug */,
+				FA39F93BCC98288C75B07575327D1A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E693D10C30B209CA86AC02EBE60EDEF1 /* Build configuration list for PBXNativeTarget "Pods-JiaYiPu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8532C6D43EF25C3CE03558B7AEAF0F /* Debug */,
+				C42F55FCD126DD9062D5120C9BF8E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
