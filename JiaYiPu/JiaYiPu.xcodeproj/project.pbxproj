@@ -13,6 +13,7 @@
 		072CFF23227E85B0006FB3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072CFF22227E85B0006FB3AF /* Assets.xcassets */; };
 		072CFF26227E85B0006FB3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072CFF24227E85B0006FB3AF /* LaunchScreen.storyboard */; };
 		072CFF29227E85B0006FB3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072CFF28227E85B0006FB3AF /* main.m */; };
+		33E4187CC6E1E808C699CF07 /* libPods-JiaYiPu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BB02443227F65917487AF3 /* libPods-JiaYiPu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E4187CC6E1E808C699CF07 /* libPods-JiaYiPu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

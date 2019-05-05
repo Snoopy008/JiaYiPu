@@ -1,16 +1,20 @@
 PODS:
   - JXBWebKit (1.1.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - JXBWebKit (~> 1.1.0)
+  - Masonry (~> 1.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - JXBWebKit
+    - Masonry
 
 SPEC CHECKSUMS:
   JXBWebKit: 01063c56396c23d5c424f188dac767ec497a29d3
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 802625e8a1cb4e3426290919d48021c7762b6c79
+PODFILE CHECKSUM: 52c9791c0f060d8b7282ae2af5bcf3a3ef8d1495
 
 COCOAPODS: 1.5.3
