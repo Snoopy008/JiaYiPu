@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		072CFF1B227E85AE006FB3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 072CFF1A227E85AE006FB3AF /* AppDelegate.m */; };
-		072CFF1E227E85AE006FB3AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072CFF1D227E85AE006FB3AF /* ViewController.m */; };
 		072CFF21227E85AE006FB3AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072CFF1F227E85AE006FB3AF /* Main.storyboard */; };
 		072CFF23227E85B0006FB3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072CFF22227E85B0006FB3AF /* Assets.xcassets */; };
 		072CFF26227E85B0006FB3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072CFF24227E85B0006FB3AF /* LaunchScreen.storyboard */; };
 		072CFF29227E85B0006FB3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072CFF28227E85B0006FB3AF /* main.m */; };
+		07B2876822801829000C9386 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2876722801829000C9386 /* RootViewController.m */; };
 		33E4187CC6E1E808C699CF07 /* libPods-JiaYiPu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BB02443227F65917487AF3 /* libPods-JiaYiPu.a */; };
 /* End PBXBuildFile section */
 
@@ -20,13 +20,13 @@
 		072CFF16227E85AE006FB3AF /* JiaYiPu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiaYiPu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072CFF19227E85AE006FB3AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		072CFF1A227E85AE006FB3AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		072CFF1C227E85AE006FB3AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		072CFF1D227E85AE006FB3AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		072CFF20227E85AE006FB3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		072CFF22227E85B0006FB3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072CFF25227E85B0006FB3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		072CFF27227E85B0006FB3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072CFF28227E85B0006FB3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B2876622801829000C9386 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		07B2876722801829000C9386 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		25BB02443227F65917487AF3 /* libPods-JiaYiPu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiaYiPu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EF1DA5736D9B2F66BDE93B /* Pods-JiaYiPu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaYiPu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiaYiPu/Pods-JiaYiPu.debug.xcconfig"; sourceTree = "<group>"; };
 		B184B9E3063361CCD491F9A8 /* Pods-JiaYiPu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaYiPu.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiaYiPu/Pods-JiaYiPu.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,13 +67,13 @@
 			children = (
 				072CFF19227E85AE006FB3AF /* AppDelegate.h */,
 				072CFF1A227E85AE006FB3AF /* AppDelegate.m */,
-				072CFF1C227E85AE006FB3AF /* ViewController.h */,
-				072CFF1D227E85AE006FB3AF /* ViewController.m */,
 				072CFF1F227E85AE006FB3AF /* Main.storyboard */,
 				072CFF22227E85B0006FB3AF /* Assets.xcassets */,
 				072CFF24227E85B0006FB3AF /* LaunchScreen.storyboard */,
 				072CFF27227E85B0006FB3AF /* Info.plist */,
 				072CFF28227E85B0006FB3AF /* main.m */,
+				07B2876622801829000C9386 /* RootViewController.h */,
+				07B2876722801829000C9386 /* RootViewController.m */,
 			);
 			path = JiaYiPu;
 			sourceTree = "<group>";
@@ -106,7 +106,6 @@
 				072CFF12227E85AE006FB3AF /* Sources */,
 				072CFF13227E85AE006FB3AF /* Frameworks */,
 				072CFF14227E85AE006FB3AF /* Resources */,
-				DA60B1C85A4380D7B69F6D99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,24 +180,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA60B1C85A4380D7B69F6D99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JiaYiPu/Pods-JiaYiPu-resources.sh",
-				"${PODS_ROOT}/JXBWebKit/JXBWebKit/JSResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiaYiPu/Pods-JiaYiPu-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,8 +187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072CFF1E227E85AE006FB3AF /* ViewController.m in Sources */,
 				072CFF29227E85B0006FB3AF /* main.m in Sources */,
+				07B2876822801829000C9386 /* RootViewController.m in Sources */,
 				072CFF1B227E85AE006FB3AF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

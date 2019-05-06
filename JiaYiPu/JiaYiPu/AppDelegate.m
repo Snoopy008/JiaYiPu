@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://app.jiayipu.com:82/TMSApp/Web/appLogin.html"]];
-    self.window.rootViewController = [[ViewController alloc] initWithURLRequest:request];
+    self.window.rootViewController = [[RootViewController alloc] init];
     return YES;
 }
 
